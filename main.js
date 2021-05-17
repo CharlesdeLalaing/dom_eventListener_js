@@ -6,6 +6,8 @@
 
 let h1 = document.querySelector('h1');
 
-h1.addEventListener('click', () => {
-    h1.setAttribute('style' , 'color:blue')
-})
+function color() {
+    h1.style.color = 'red'
+}
+
+h1.addEventListener('click', color);
