@@ -11,3 +11,15 @@ function color() {
 }
 
 h1.addEventListener('click', color);
+
+//correction
+
+let h1Bis = document.querySelector('h1');
+
+let colorBis = () => {
+    h1Bis.style.color = "blue";
+};
+
+colorBis();
+
+h1Bis.addEventListener('click', colorBis);
